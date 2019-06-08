@@ -1,0 +1,19 @@
+{
+  "type": "sqlite",
+  "database": "/Users/twohappy/Library/Developer/CoreSimulator/Devices/DF8396F8-1338-4764-ABA8-D67A5E4AFC71/data/Containers/Data/Application/0CC73231-CDD1-47B5-BC53-EB5EBC834CCE/Documents/cherylnote",
+  "synchronize": false,
+  "entities": [
+    "src/entities/*.ts"
+  ],
+  "migrations": [
+    "src/migrations/*.ts"
+  ],
+  "subscribers": [
+    "src/subscribers/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations",
+    "subscribersDir": "src/subscribers"
+  }
+}
